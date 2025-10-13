@@ -3,7 +3,7 @@
     <video
       ref="video"
       src="../assets/Cathedral.mp4"
-      width="600"
+      width="100%"
       muted
       loop
     ></video>

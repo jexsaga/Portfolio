@@ -14,7 +14,7 @@
         </p>
     </div>
     <div>
-        <img src="../assets/EarthQuakeMap.png" alt="earthquakemap" width="600" @click="openLink" class="clickable-image"/>
+        <img src="../assets/EarthQuakeMap.png" alt="earthquakemap" width="100%" @click="openLink" class="clickable-image"/>
     </div>
 </template>
 

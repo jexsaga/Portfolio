@@ -3,7 +3,7 @@
     <video
       ref="video"
       src="../assets/MichelinManVideo.mp4"
-      width="600"
+      width="100%"
       muted
       loop
       class="scroll-video"

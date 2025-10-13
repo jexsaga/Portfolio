@@ -15,7 +15,7 @@
         </p>
     </div>
     <div>
-        <img src="../assets/DonutDraft.png" alt="donut" width="600"/>
+        <img src="../assets/DonutDraft.png" alt="donut" width="100%"/>
     </div>
 
 </template>

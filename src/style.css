@@ -143,6 +143,7 @@ button:focus-visible {
   color: #ebeff1;
   font-size: larger;
   flex-direction: column;
+  margin: 20px;
 }
 
 
