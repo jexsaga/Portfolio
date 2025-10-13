@@ -128,7 +128,7 @@ button:focus-visible {
   color: #ebeff1;
   font-size: larger;
   flex-direction: column;
-  margin: 20px;
+  margin-left: 20px;
 }
 
 .right-image{
@@ -138,12 +138,12 @@ button:focus-visible {
 
 .left-text{
   display: flex;
-  text-align: left;
+  text-align: right;
   font-family: var(--font-project);
   color: #ebeff1;
   font-size: larger;
   flex-direction: column;
-  margin: 20px;
+  margin-right: 20px;
 }
 
 
