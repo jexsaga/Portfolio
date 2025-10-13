@@ -14,7 +14,7 @@
         </p>
     </div>
     <div>
-        <img src="../assets/LightingAndShading.png" alt="lightingandshading" width="600" @click="openLink" class="clickable-image"/>
+        <img src="../assets/LightingAndShading.png" alt="lightingandshading" width="100%" @click="openLink" class="clickable-image"/>
     </div>
 </template>
 

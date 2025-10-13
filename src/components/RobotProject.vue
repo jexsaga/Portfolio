@@ -1,6 +1,6 @@
 <template>
     <div class="left-image">
-        <img src="../assets/RobotDraft.png" alt="robotics" width="600"/>
+        <img src="../assets/RobotDraft.png" alt="robotics" width="100%"/>
     </div>
     <div class="right-text">
         <p>

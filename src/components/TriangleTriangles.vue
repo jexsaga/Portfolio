@@ -17,7 +17,7 @@
     <video
       ref="video"
       src="../assets/TriangleTriangles.mp4"
-      width="600"
+      width="100%"
       muted
       loop
     ></video>

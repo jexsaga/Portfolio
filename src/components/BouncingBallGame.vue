@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="../assets/BouncingBallGame.png" alt="bouncingballgame" width="600" @click="openLink" class="clickable-image"/>
+        <img src="../assets/BouncingBallGame.png" alt="bouncingballgame" width="100%" @click="openLink" class="clickable-image"/>
     </div>
     <div class="right-text">
         <p>
