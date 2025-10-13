@@ -110,12 +110,13 @@ export default {
                 1: { src: bouncingBallImg, description: "3D physics-based game inspired by Donut County, built using TypeScript and GopherGfx.",  tools: "TypeScript, GopherGfx", dates: "Fall 2024" },
                 2: { src: lightingImage, description: "Real-time lighting project using GLSL shaders to explore both photorealistic and stylized rendering techniques.",  tools: "TypeScript, GopherGfx", dates: "Fall 2024" },
                 3: { src: michelinImg, description: "Animated character project using motion capture data from the Carnegie Mellon mocap database.",  tools: "TypeScript, GopherGfx", dates: "Fall 2024" },
-                4: { src: robotImg, description: "Raytracer Tools: cpp", dates: "Spring 2025" },
-                6: { src: earthQuakeImg, description: "Interactive visualization of earthquake data from NASA and USGS, spanning 1905-2007.",  tools: "TypeScript, GopherGfx", dates: "Fall 2024" },
-                7: { src: donutImg, description: "Simple donut model made while following a Blender tutorial by Blender Guru on YouTube.",  tools: "Blender", dates: "Current" },
-                8: { src: cathedralVid, description: "OpenGL project showcasing interactive first-person navigation within a 3D building model.",  tools: "OpenGL, C++", dates: "Spring 2025" },
-                9: { src: triangleVid, description: "OpenGL project enabling interactive manipulation of a 2D model around its centroid.",  tools: "OpenGL, C++", dates: "Spring 2025" },
-                10: { src: robotImg, description: "Idk what project this is yet" },
+                // 4: { src: robotImg, description: "Raytracer Tools: cpp", dates: "Spring 2025" },
+                5: { src: earthQuakeImg, description: "Interactive visualization of earthquake data from NASA and USGS, spanning 1905-2007.",  tools: "TypeScript, GopherGfx", dates: "Fall 2024" },
+                6: { src: donutImg, description: "Simple donut model made while following a Blender tutorial by Blender Guru on YouTube.",  tools: "Blender", dates: "Current" },
+                7: { src: cathedralVid, description: "OpenGL project showcasing interactive first-person navigation within a 3D building model.",  tools: "OpenGL, C++", dates: "Spring 2025" },
+                8: { src: triangleVid, description: "OpenGL project enabling interactive manipulation of a 2D model around its centroid.",  tools: "OpenGL, C++", dates: "Spring 2025" },
+                9: { src: robotImg, description: "Idk what project this is yet" },
+                middleDivNum: 4
             },
 
         };
@@ -196,7 +197,7 @@ export default {
             for (const tag of hitTags) {
                 
                 let index = tagElements.indexOf(tag)
-                if (index !== 5){
+                if (index !== vm.imgMap.middleDivNum){
                     if (!vm.pushedButtons.includes(index)) {
                         vm.pushedButtons.push(index);
                         const rect = tag.getBoundingClientRect();
