@@ -1,5 +1,8 @@
 <template>
-    <div style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div v-if="!isMobile">
+        <p>This is best viewed on computer.</p>
+    </div>
+    <div v-if="!isMobile" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <div class="entry-top">
             <h1>Welcome to Jessica Robbins' Portfolio</h1>
             <div style="padding: 0 10px;">
@@ -33,3 +36,21 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            isMobile: false,
+        }
+    },
+    mounted() {
+        const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+        if (isMobile) {
+            console.log("User is on a phone/tablet");
+        } else {
+            console.log("User is on a desktop/laptop");
+        }
+    }
+}
+</script>
