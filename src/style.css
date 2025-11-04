@@ -97,6 +97,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: var(--my-dark-teal);
+    background-image: var(--my-bluegreen-gradient);
+  }
+  a:hover {
+    color: #a7c7d7;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
 
 .project-tab{
   margin: 50px 0;
