@@ -13,7 +13,7 @@
         Focus: mastering shader programming, per-pixel lighting, geometry manipulation, and artistic rendering effects in real-time graphics.
         </p>
     </div>
-    <div>
+    <div class="right-image">
         <img src="../assets/LightingAndShading.png" alt="lightingandshading" width="100%" @click="openLink" class="clickable-image"/>
     </div>
 </template>

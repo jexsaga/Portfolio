@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="left-image">
         <img src="../assets/BouncingBallGame.png" alt="bouncingballgame" width="100%" @click="openLink" class="clickable-image"/>
     </div>
     <div class="right-text">

@@ -5,8 +5,8 @@
             <div style="padding: 0 10px;">
                 <h3>Who am I?</h3>
                 <p>
-                My name is Jessica Robbins, a Master's student at Institut Polytechnique de Paris with a passion for creating engaging and meaningful projects. 
-                I am intrigued by all things computer graphics, especially VFX, animation, and video game development. 
+                My name is Jessica Robbins. I recently graduated from the University of Minnesota with a <strong>Bachelor's in Computer Science and a Minor in Franch</strong>. Now, I am starting my <strong>Master's in Computer Graphics at Institut Polytechnique de Paris</strong>.
+                I am intrigued by all things computer graphics, especially <strong>VFX, animation, and video game development</strong>. 
                 I challenge myself to make my projects personal, beautiful, and effective. 
                 While I enjoy the arts—such as music, poetry, pastels, digital illustration, and other expressive media—I balance that with my intellectual side, which loves problem-solving and efficiency. 
                 This portfolio showcases both sides by offering two versions: an Interactive Portfolio and a Professional Portfolio. 

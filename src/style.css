@@ -4,7 +4,7 @@
 
   --my-tan: #848469;
   --my-bluegreen-gradient: linear-gradient(to bottom, #e8f4f4, #56817e);
-  --light-white: #f4f5f5;
+  --light-white: #f3f2f3;
   --light-teal: #9ccac7;
   --my-white: #090001;
   --dark-brown: #404C40;
@@ -118,11 +118,15 @@ button:focus-visible {
   background-color: var(--my-teal);
   width: 100%;
   margin-top: 50px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .left-image{
   display: flex;
   justify-content: left;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .right-text{
@@ -139,6 +143,8 @@ button:focus-visible {
 .right-image{
   display: flex;
   justify-content: right;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .left-text{
@@ -175,6 +181,8 @@ button:focus-visible {
   margin: 5px;
   position: relative;
   z-index: 0;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .entry-top{
@@ -185,12 +193,13 @@ button:focus-visible {
   height: 40vh;
   width: 80%;
   background-color: var(--light-white);
+  border-radius: 10px;
 }
 
 .entry-bottom{
   width: 80%;
   height: 50vh;
-  background-color: var(--light-teal);
+  /* background-color: var(--light-teal); */
 }
 
 .entry-tab--fun {

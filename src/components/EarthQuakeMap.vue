@@ -13,7 +13,7 @@
         Focus: applying computer graphics to real-world geospatial data for dynamic, informative visual exploration.
         </p>
     </div>
-    <div>
+    <div class="right-image">
         <img src="../assets/EarthQuakeMap.png" alt="earthquakemap" width="100%" @click="openLink" class="clickable-image"/>
     </div>
 </template>
