@@ -1,6 +1,8 @@
 <template>
     <div v-if="isMobile || isProllyMobile">
-        <p>This is best viewed full screen on laptop or computer.</p>
+        <h2 style="margin-top: 20vh; text-align: center;">Oops! It looks like you're on a mobile device.</h2>
+        <p style="text-align: center;">This portfolio is best experienced on a laptop or computer due to its interactive and visual nature.</p>
+        <p style="text-align: center;">Please switch devices to see my portfolio. Thank you! - Jess</p>
     </div>
     <div v-if="!isMobile && !isProllyMobile" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <div class="entry-top">
