@@ -46,13 +46,8 @@ export default {
         }
     },
     mounted() {
-        const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-        if (isMobile) {
-            console.log("User is on a phone/tablet");
-        } else {
-            console.log("User is on a desktop/laptop");
-        }
-        isProllyMobile = window.innerWidth <= 768;
+        this.isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+        this.isProllyMobile = window.innerWidth <= 768;
     }
 }
 </script>
