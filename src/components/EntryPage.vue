@@ -1,8 +1,8 @@
 <template>
-    <div v-if="isMobile || isProllyMobile">
-        <h2 style="margin-top: 20%; text-align: center;">Oops! It looks like you're on a mobile device.</h2>
+    <div v-if="isMobile || isProllyMobile" style="display: flex; flex-direction: row; justify-content: center; align-items: center; height: 100vh; padding: 0 20px;">
+        <h2 style="text-align: center;">Oops! It looks like you're on a mobile device.</h2>
         <p style="text-align: center;">This portfolio is best experienced on a laptop or computer due to its interactive and visual nature.</p>
-        <p style="text-align: center;">Please switch devices to see my portfolio. Thank you! - Jess</p>
+        <p style="text-align: center;">Please switch devices to see my portfolio. Thank you!</p>
         <p style="text-align: center;">- Jess</p>
     </div>
     <div v-if="!isMobile && !isProllyMobile" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
