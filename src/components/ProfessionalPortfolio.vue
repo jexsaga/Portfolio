@@ -41,5 +41,4 @@ const doneProjectComponents = [
   <div v-for="(Component, index) in doneProjectComponents" :key="index" class="project-tab">
     <component :is="Component" />
   </div>
-
 </template>

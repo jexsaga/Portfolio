@@ -63,7 +63,7 @@
                         </div>
                         <div v-else>
                             <h1>Welcome to My Portfolio</h1>
-                            <h2>The Fun Version</h2>
+                            <p>The Interactive Version</p>
                             <h2>Try using the arrow keys to move and space to jump on the buttons !</h2>
                         </div>
                     </div>
