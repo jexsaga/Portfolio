@@ -1,5 +1,5 @@
 <template>
-    <div v-if="!isMobile">
+    <div v-if="isMobile">
         <p>This is best viewed on computer.</p>
     </div>
     <div v-if="!isMobile" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
