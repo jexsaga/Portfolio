@@ -26,7 +26,7 @@
                 <router-link to="/professional">
                     <div class="entry-tab entry-tab--professional">
                         <h3 class="entry-tab__content" style="color: var(--light-white)">Professional Portfolio</h3>
-                        <p class="entry-tab__content" style="color: var(--light-white)">This version is more formal and polished, highlighting technical skills and completed projects in straightforward manner.</p>
+                        <p class="entry-tab__content" style="color: var(--light-white)">This version is more formal and polished, highlighting technical skills and completed projects in a straightforward manner.</p>
                     </div>
                 </router-link>
             </div>
