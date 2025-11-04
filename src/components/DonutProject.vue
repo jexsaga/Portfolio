@@ -14,7 +14,7 @@
             Next Steps: Make more realistic and finish tutorial.
         </p>
     </div>
-    <div>
+    <div class="right-image">
         <img src="../assets/DonutDraft.png" alt="donut" width="100%"/>
     </div>
 

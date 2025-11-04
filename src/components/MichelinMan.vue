@@ -1,5 +1,5 @@
 <template>
-  <div ref="videoContainer">
+  <div ref="videoContainer" class="left-image">
     <video
       ref="video"
       src="../assets/MichelinManVideo.mp4"

@@ -13,7 +13,7 @@
     Focus: mastering transformation matrices, user input handling, and robust interactive design.
     </p>
   </div>
-  <div ref="videoContainer">
+  <div ref="videoContainer" class="right-image">
     <video
       ref="video"
       src="../assets/TriangleTriangles.mp4"
