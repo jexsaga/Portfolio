@@ -1,8 +1,8 @@
 <template>
-    <div v-if="isMobile">
-        <p>This is best viewed on computer.</p>
+    <div v-if="isMobile || isProllyMobile">
+        <p>This is best viewed full screen on laptop or computer.</p>
     </div>
-    <div v-if="!isMobile" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div v-if="!isMobile && !isProllyMobile" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <div class="entry-top">
             <h1>Welcome to Jessica Robbins' Portfolio</h1>
             <div style="padding: 0 10px;">
@@ -42,6 +42,7 @@ export default {
     data() {
         return {
             isMobile: false,
+            isProllyMobile: false,
         }
     },
     mounted() {
@@ -51,6 +52,7 @@ export default {
         } else {
             console.log("User is on a desktop/laptop");
         }
+        isProllyMobile = window.innerWidth <= 768;
     }
 }
 </script>
