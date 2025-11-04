@@ -2,14 +2,24 @@
   --font-general: system-ui, Avenir, Helvetica, Arial, sans-serif;
   --font-project: 'Times New Roman', Times, serif;
 
+  --my-tan: #848469;
+  --my-bluegreen-gradient: linear-gradient(to bottom, #e8f4f4, #56817e);
+  --light-white: #f4f5f5;
+  --light-teal: #9ccac7;
+  --my-white: #090001;
+  --dark-brown: #404C40;
+  --my-black: #090001;
+  --my-dark-teal: #173432;
+  --my-teal: #578380;
+
   font-family: var(--font-general);
 
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--my-dark-teal);
+  background-color: var(--my-bluegreen-gradient);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,15 +45,10 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 2.2em;
-  line-height: 0.7;
-  margin-top: 0;
-}
-
-h3{
-  font-size: 1.5em;
-  line-height: 0.5;
+h1, h2, h3, h4, h5, h6, p {
+  /* font-weight: 600; */
+  line-height: 1.5;
+  margin: 0;
 }
 
 button {
@@ -76,14 +81,14 @@ button:focus-visible {
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #ebeff1;
-    background-color: #9aa6ac;
+    color: var(--my-dark-teal);
+    background-image: var(--my-bluegreen-gradient);
   }
   a:hover {
     color: #a7c7d7;
@@ -108,9 +113,9 @@ button:focus-visible {
   justify-content: center;
   text-align: center;
   font-family: var(--font-project);
-  color: #ebeff1;
-  border-bottom: 2px solid #c6ae28;
-  background-color: #628da1;
+  color: var(--my-white);
+  border-bottom: 2px solid var(--my-tan);
+  background-color: var(--my-teal);
   width: 100%;
   margin-top: 50px;
 }
@@ -125,7 +130,7 @@ button:focus-visible {
   justify-content: left;
   text-align: left;
   font-family: var(--font-project);
-  color: #ebeff1;
+  color: var(--my-dark-teal);
   font-size: larger;
   flex-direction: column;
   margin-left: 20px;
@@ -140,7 +145,7 @@ button:focus-visible {
   display: flex;
   text-align: right;
   font-family: var(--font-project);
-  color: #ebeff1;
+  color: var(--dark-brown);
   font-size: larger;
   flex-direction: column;
   margin-right: 20px;
@@ -152,7 +157,9 @@ button:focus-visible {
   flex-direction: row;
   gap: 20px;
   height: 50%;
+  padding: 0 10px;
 }
+
 .entry-tab{
   display: flex;
   flex-direction: column;
@@ -169,20 +176,33 @@ button:focus-visible {
   position: relative;
   z-index: 0;
 }
+
+.entry-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 80%;
+  background-color: var(--light-white);
+}
+
+.entry-bottom{
+  width: 80%;
+  height: 50vh;
+  background-color: var(--light-teal);
+}
+
 .entry-tab--fun {
   background-image: url('./assets/FunPage.png');
   background-size: cover;
   background-position: center;
-  /* height: 100vh; */
-  width: 100%;
 } 
 
 .entry-tab--professional {
   background-image: url('./assets/Prof.png');
   background-size: cover;
   background-position: center;
-  /* height: 100vh; */
-  width: 100%;
 }
 
 .entry-tab--fun::before,
@@ -256,8 +276,8 @@ canvas#gameCanvas {
               #c6d4dcff 0px -6px 12px,
               rgba(36, 36, 36, 0.4) 0px 6px 12px,
               rgba(36, 36, 36, 0.4) 0px -6px 12px;
-  background-color: #628da1;
-  border: 2px solid #c6ae28;
+  background-color: var(--my-teal);
+  border: 2px solid var(--my-tan);
   border-radius: 8px;
   padding: 5px 10px;
   font-family: var(--font-project);
