@@ -127,7 +127,7 @@ button:focus-visible {
   text-align: center;
   font-family: var(--font-project);
   color: var(--my-white);
-  border-bottom: 2px solid var(--my-tan);
+  border-bottom: 3.5px solid var(--my-tan);
   background-color: var(--my-teal);
   width: 100%;
   margin-top: 50px;
