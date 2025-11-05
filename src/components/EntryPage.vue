@@ -1,7 +1,9 @@
 <template>
-    <div v-if="!isMobile || isProllyMobile" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; padding: 0 20px;">
+    <div v-if="isMobile || isProllyMobile" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; padding: 0 20px;">
         <h2 style="text-align: center;">Oops! It looks like you're on a mobile device.</h2>
         <p style="text-align: center;">This portfolio is best experienced on a laptop or computer due to its interactive and visual nature. If possible, try revisiting on a larger screen to get the full experience. Thank you for stopping by!</p>
+        
+        <!-- <p style="text-align: center;">Shh… my portfolio is scared of thumbs and tiny screens. Come back with keys and a bigger view for the full experience!</p> -->
         <p style="text-align: center;">- Jess</p>
     </div>
     <div v-if="!isMobile && !isProllyMobile" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
@@ -37,6 +39,10 @@
             </div>
         </div>
     </div>
+    
+  <div class="credits">
+      <p>Coding Image by <a href="https://wallpapers.com/wallpapers/cool-code-aesthetic-cqzxsy3jp8y5w6xx.html" style="color: #456664; text-decoration: underline;">Wallpapers.com</a></p>
+  </div>
 </template>
 
 <script>

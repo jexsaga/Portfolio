@@ -26,6 +26,11 @@ const doneProjectComponents = [
   BouncingBallGame,
   LightingAndShading,
 ]
+
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 </script>
 
 <template>
@@ -43,4 +48,9 @@ const doneProjectComponents = [
       <component :is="Component" />
     </div>
   </div>
+  <!-- back to top -->
+  <div class="back-to-top"  @click="scrollToTop">
+      <a style="color: var(--light-white);">Back to Top</a>
+  </div>
+
 </template>
