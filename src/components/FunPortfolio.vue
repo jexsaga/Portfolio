@@ -117,6 +117,11 @@
             <canvas id="gameCanvas"></canvas>
         </div>
     </div>
+    
+  <div class="credits">
+      <p>Icons by <a href="https://icons8.com/icons" style="color: #456664; text-decoration: underline;">Icons8</a></p>
+      <p>Arrow icons created by <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons" style="color: #456664; text-decoration: underline;"> rang - Flaticon</a></p>
+  </div>
 </template>
 
 <script>
