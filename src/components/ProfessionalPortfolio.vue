@@ -9,6 +9,8 @@ import LightingAndShading from './LightingAndShading.vue'
 import CurrentProjects from './CurrentProjects.vue'
 import Cathedral from './Cathedral.vue'
 import TriangleTriangles from './TriangleTriangles.vue'
+import ClothAnimation from './ClothAnimation.vue'
+import ColisionPlacticityElasticity from './ColisionPlacticityElasticity.vue'
 import CompletedProjects from './CompletedProjects.vue'
 
 
@@ -19,6 +21,8 @@ const curProjectComponents = [
 ]
 
 const doneProjectComponents = [
+  ClothAnimation,
+  ColisionPlacticityElasticity,
   Cathedral,
   TriangleTriangles,
   MichelinMan,
