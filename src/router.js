@@ -1,13 +1,15 @@
 import EntryPage from './components/EntryPage.vue'
 import ProfessionalPortfolio from './components/ProfessionalPortfolio.vue'
 import FunPortfolio from './components/FunPortfolio.vue'
+import ResumeScreen from './components/ResumeScreen.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 
 const routes = [
   { path: '/', component: EntryPage },
-  { path: '/professional', component: ProfessionalPortfolio },
+  { path: '/Portfolio', component: ProfessionalPortfolio },
   { path: '/fun', component: FunPortfolio },
+  { path: '/Resume', component: ResumeScreen },
 ]
 
 // Use Vite's BASE_URL so the router works when the app is served from a subpath
