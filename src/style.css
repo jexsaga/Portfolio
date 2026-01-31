@@ -210,13 +210,13 @@ button:focus-visible {
 }
 
 .entry-tab--fun {
-  background-image: url('./assets/FunPage.png');
+  /* background-image: url('./assets/FunPage.png'); */
   background-size: cover;
   background-position: center;
 } 
 
 .entry-tab--professional {
-  background-image: url('./assets/Prof.png');
+  /* background-image: url('./assets/Prof.png'); */
   background-size: cover;
   background-position: center;
 }

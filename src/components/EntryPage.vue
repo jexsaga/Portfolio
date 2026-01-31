@@ -43,9 +43,9 @@
                 </router-link>
             </div>
         </div>
-        <div class="credits">
+        <!-- <div class="credits">
             <p>Coding Image by <a href="https://wallpapers.com/wallpapers/cool-code-aesthetic-cqzxsy3jp8y5w6xx.html" style="color: #456664; text-decoration: underline;">Wallpapers.com</a></p>
-        </div>
+        </div> -->
     </div>
     
 </template>
