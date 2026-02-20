@@ -404,3 +404,23 @@ canvas#gameCanvas {
   font-size: small;
   color: #456664;
 }
+
+.language-button{
+  margin: 10px;
+  background-color: transparent;
+  color: var(--my-white);
+  border: 2px solid var(--my-tan);
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-family: var(--font-project);
+}
+
+.language-button:hover {
+  background-color: var(--my-tan);
+  color: var(--my-white);
+}
+
+.language-button.active {
+  background-color: var(--my-tan);
+  color: var(--my-white);
+}
