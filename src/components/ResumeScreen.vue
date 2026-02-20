@@ -4,20 +4,25 @@
   </button>
   <div class="resume-container">
     <h1 style="margin-top: 40px;">Jessica Robbins' Resume</h1>
+    <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+      <button @click="pickedResume = resumePdfEN" :class="{ active: pickedResume === resumePdfEN }" class="language-button">EN</button>
+      <button @click="pickedResume = resumePdfFR" :class="{ active: pickedResume === resumePdfFR }" class="language-button">FR</button>
+    </div>
     <iframe
-      :src="resumePdf"
+      :src="pickedResume + '#toolbar=0&navpanes=0&scrollbar=0'"
       class="resume-frame"
     ></iframe>
   </div>
 </template>
 
 <script>
-import resumePdf from '../assets/JessicaRobbins_Resume.pdf'
+import resumePdfEN from '../assets/JessicaRobbins_Resume_EN.pdf'
+import resumePdfFR from '../assets/JessicaRobbins_Resume_FR.pdf'
 
 export default {
   name: 'ResumeScreen',
   data() {
-    return { resumePdf }
+    return { resumePdfEN, resumePdfFR, pickedResume: resumePdfEN}
   }
 }
 </script>
