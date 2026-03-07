@@ -143,11 +143,15 @@ button:focus-visible {
   border-radius: 10px;
   overflow: hidden;
 }
+.left-image--comingsoon{
+  width: 50%;
+  height: auto;
+  /* border: 2px solid var(--my-tan); */
+}
 
 .right-text{
   display: flex;
-  justify-content: left;
-  text-align: left;
+  text-align: justify;
   font-family: var(--font-project);
   color: var(--my-dark-teal);
   font-size: larger;
@@ -162,9 +166,16 @@ button:focus-visible {
   overflow: hidden;
 }
 
+
+.right-image--comingsoon{
+  width: 50%;
+  height: auto;
+  /* border: 2px solid var(--my-tan); */
+}
+
 .left-text{
   display: flex;
-  text-align: right;
+  text-align: justify;
   font-family: var(--font-project);
   color: var(--dark-brown);
   font-size: larger;

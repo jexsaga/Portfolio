@@ -12,17 +12,28 @@ import TriangleTriangles from './TriangleTriangles.vue'
 import ClothAnimation from './ClothAnimation.vue'
 import ColisionPlacticityElasticity from './ColisionPlacticityElasticity.vue'
 import CompletedProjects from './CompletedProjects.vue'
-
+import Fundamentals_FinalProj from './Fundamentals_FinalProj.vue';
+import PhotoMosaicGenerator from './PhotoMosaicGenerator.vue';
+import VR_Final_Proj from './VR_Final_Proj.vue';
+import Interactive3D_FinalProj from './Interactive3D_FinalProj.vue';
+import ResearchProj from './ResearchProj.vue';
+import SubsurfaceScattering from './SubsurfaceScattering.vue';
 
 
 const curProjectComponents = [
   RobotProject,
-  DonutProject,
+  ResearchProj,
+  SubsurfaceScattering
+  // DonutProject,
 ]
 
 const doneProjectComponents = [
   ClothAnimation,
+  Fundamentals_FinalProj,
+  PhotoMosaicGenerator,
+  VR_Final_Proj,
   ColisionPlacticityElasticity,
+  Interactive3D_FinalProj,
   Cathedral,
   TriangleTriangles,
   MichelinMan,

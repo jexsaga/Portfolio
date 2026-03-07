@@ -1,20 +1,5 @@
 <template>
-  
-  <div class="left-text">
-    <p>
-    Another OpenGL project to explore collision detection and response, plasticity, and elasticity in 3D models.
-    </p>
-    <p>
-    Given: starter code for rendering the model and opening a responsive window.
-    </p>
-    <p>
-    Implemented: rigid transformations for 3D models, collision detection between complex shapes, and response behaviors including plastic deformation and elastic restitution.
-    </p>
-    <p>
-    Focus: understanding collision detection algorithms, physical response modeling, and enhancing realism in interactive graphics.
-    </p>
-  </div>
-  <div ref="videoContainer" class="right-image" style="display: flex; flex-direction: column ;gap: 10px; justify-content: center;">
+  <div ref="videoContainer" class="left-image" style="display: flex; flex-direction: column ;gap: 10px; justify-content: center;">
     <video
     ref="video1"
     src="../assets/BunnyPlasticity.mp4"
@@ -29,6 +14,20 @@
     muted
     loop
     ></video>
+  </div>
+  <div class="right-text">
+    <p>
+    Another OpenGL project to explore collision detection and response, plasticity, and elasticity in 3D models.
+    </p>
+    <p>
+    Given: starter code for rendering the model and opening a responsive window.
+    </p>
+    <p>
+    Implemented: rigid transformations for 3D models, collision detection between complex shapes, and response behaviors including plastic deformation and elastic restitution.
+    </p>
+    <p>
+    Focus: understanding collision detection algorithms, physical response modeling, and enhancing realism in interactive graphics.
+    </p>
   </div>
 </template>
 

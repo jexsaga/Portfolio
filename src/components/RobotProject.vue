@@ -1,6 +1,13 @@
 <template>
-    <div class="left-image">
-        <img src="../assets/RobotDraft.png" alt="robotics" width="100%"/>
+    <div ref="videoContainer" class="left-image">
+        <video
+        ref="video"
+        src="../assets/Robo_premier_animation_wave.mp4"
+        width="100%"
+        muted
+        loop
+        class="scroll-video"
+        ></video>
     </div>
     <div class="right-text">
         <p>
@@ -11,10 +18,30 @@
             It includes a basic rig for animation and is designed to be simple as per our game aesthetic.
         </p>
         <p>
-            Focus: Making something beautiful and personal while getting to know the tools of Blender and Unity.
-        </p>
-        <p>
-            Next Steps: Add texturing and complete a full animation cycle.
+            Focus: Making something fun and personal while getting to know the tools of Blender and Unity.
         </p>
     </div>
 </template>
+
+
+<script>
+export default {
+  mounted() {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        const video = this.$refs.video
+        if (entry.isIntersecting) {
+          video.play()
+        } else {
+          video.pause()
+        }
+      },
+      {
+        threshold: 0.5
+      }
+    )
+
+    observer.observe(this.$refs.videoContainer)
+  }
+}
+</script>
