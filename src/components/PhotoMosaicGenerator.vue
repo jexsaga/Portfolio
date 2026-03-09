@@ -1,8 +1,8 @@
 <template>
     <div class="left-image" style="display: flex; flex-direction: column ;gap: 10px; justify-content: center; width: 100%;">
-        <img src="../assets/Comp_Vis_building_reconstruction.png" alt="lightingandshading" width="100%" @click="openLink" class="clickable-image"/>
-        <img src="../assets/Comp_Vis_butterfly_reconstruction.png" alt="lightingandshading" width="100%" @click="openLink" class="clickable-image"/>
-        <img src="../assets/Comp_Vis_cat_reconstruction.png" alt="lightingandshading" width="100%" @click="openLink" class="clickable-image"/>
+        <img src="../assets/Comp_Vis_building_reconstruction.png" alt="lightingandshading" width="100%"/>
+        <img src="../assets/Comp_Vis_butterfly_reconstruction.png" alt="lightingandshading" width="100%"/>
+        <img src="../assets/Comp_Vis_cat_reconstruction.png" alt="lightingandshading" width="100%"/>
     </div>
     <div class="right-text">
         <p>
@@ -18,12 +18,3 @@
 </template>
 
 
-<script>
-export default {
-  methods: {
-    openLink() {
-      window.open('https://csci-4611-fall-2024.github.io/assignment-5-JessRobb/', '_blank');
-    }
-  }
-}
-</script>
