@@ -1,14 +1,5 @@
 <template>
-  <div ref="videoContainer" class="left-image">
-    <video
-      ref="video"
-      src="../assets/Cathedral.mp4"
-      width="100%"
-      muted
-      loop
-    ></video>
-  </div>
-  <div class="right-text">
+  <div class="left-text">
     <p>
     OpenGL project showcasing interactive first-person navigation within a 3D building model.
     </p>
@@ -21,6 +12,15 @@
     <p>
     Focus: mastering OpenGL rendering, camera control, and user interaction techniques.
     </p>
+  </div>
+  <div ref="videoContainer" class="right-image">
+    <video
+      ref="video"
+      src="../assets/Cathedral.mp4"
+      width="100%"
+      muted
+      loop
+    ></video>
   </div>
 </template>
 

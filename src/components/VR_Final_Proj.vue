@@ -1,5 +1,14 @@
 <template>
-  <div class="left-text">
+  <div ref="videoContainer" class="left-image">
+    <video
+      ref="video"
+      src="../assets/VR_turn_sprint.mp4"
+      width="100%"
+      muted
+      loop
+    ></video>
+  </div>
+  <div class="right-text">
     <p>
     VR project to develop a locomation technique for a race track.
     </p>
@@ -12,15 +21,6 @@
     <p>
     Focus: Unity development and VR.
     </p>
-  </div>
-  <div ref="videoContainer" class="right-image">
-    <video
-      ref="video"
-      src="../assets/VR_turn_sprint.mp4"
-      width="100%"
-      muted
-      loop
-    ></video>
   </div>
 </template>
 

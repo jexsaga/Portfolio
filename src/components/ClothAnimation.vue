@@ -1,14 +1,5 @@
 <template>
-  <div ref="videoContainer" class="left-image">
-    <video
-      ref="video"
-      src="../assets/ClothProject.mp4"
-      width="100%"
-      muted
-      loop
-    ></video>
-  </div>
-  <div class="right-text">
+  <div class="left-text">
     <p>
     OpenGL project simulating cloth animation using mass-spring systems .
     </p>
@@ -21,6 +12,15 @@
     <p>
     Focus: understanding physical simulation of cloth, numerical integration, and collision handling techniques. 
     </p>
+  </div>
+  <div ref="videoContainer" class="right-image">
+    <video
+      ref="video"
+      src="../assets/ClothProject.mp4"
+      width="100%"
+      muted
+      loop
+    ></video>
   </div>
 </template>
 

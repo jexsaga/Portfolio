@@ -1,8 +1,5 @@
 <template>
-    <div class="left-image">
-        <img src="../assets/BouncingBallGame.png" alt="bouncingballgame" width="100%" @click="openLink" class="clickable-image"/>
-    </div>
-    <div class="right-text">
+    <div class="left-text">
         <p>
         3D physics-based game inspired by Donut County, built using TypeScript and GopherGfx.
         </p>
@@ -15,6 +12,9 @@
         <p>
         Focus: building an engaging, interactive 3D game while mastering core computer graphics techniques.
         </p>
+    </div>
+    <div class="right-image">
+        <img src="../assets/BouncingBallGame.png" alt="bouncingballgame" width="100%" @click="openLink" class="clickable-image"/>
     </div>
 </template>
 

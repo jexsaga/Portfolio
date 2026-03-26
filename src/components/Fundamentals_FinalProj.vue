@@ -1,5 +1,14 @@
 <template>
-  <div class="left-text">
+  <div ref="videoContainer" class="left-image">
+    <video
+      ref="video"
+      src="../assets/Fundamentals_FinalProj.mp4"
+      width="100%"
+      muted
+      loop
+    ></video>
+  </div>
+  <div class="right-text">
     <p>
     Commulative project of all OpenGL labs throughout the course including rendering, geometry and simulation.
     </p>
@@ -12,15 +21,6 @@
     <p>
     Focus: Building strong understanding of the fundamentals of computer graphics and implementing them into one big project.
     </p>
-  </div>
-  <div ref="videoContainer" class="right-image">
-    <video
-      ref="video"
-      src="../assets/Fundamentals_FinalProj.mp4"
-      width="100%"
-      muted
-      loop
-    ></video>
   </div>
 </template>
 

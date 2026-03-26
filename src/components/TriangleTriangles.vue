@@ -1,5 +1,14 @@
 <template>
-  <div class="left-text">
+  <div ref="videoContainer" class="left-image">
+    <video
+      ref="video"
+      src="../assets/TriangleTriangles.mp4"
+      width="100%"
+      muted
+      loop
+    ></video>
+  </div>
+  <div class="right-text">
     <p>
     OpenGL project enabling interactive manipulation of a 2D model around its centroid.
     </p>
@@ -12,15 +21,6 @@
     <p>
     Focus: mastering transformation matrices, user input handling, and robust interactive design.
     </p>
-  </div>
-  <div ref="videoContainer" class="right-image">
-    <video
-      ref="video"
-      src="../assets/TriangleTriangles.mp4"
-      width="100%"
-      muted
-      loop
-    ></video>
   </div>
 </template>
 

@@ -1,16 +1,5 @@
 <template>
-  <div ref="videoContainer" class="left-image">
-    <video
-      ref="video"
-      src="../assets/MichelinManVideo.mp4"
-      width="100%"
-      muted
-      loop
-      class="scroll-video"
-      @click="openLink"
-    ></video>
-  </div>
-  <div class="right-text">
+  <div class="left-text">
     <p>
     Animated character project using motion capture data from the Carnegie Mellon mocap database.
     </p>
@@ -23,6 +12,17 @@
     <p>
     Focus: understanding skeletal animation, transformation hierarchies, and integrating mocap data into interactive graphics.
     </p>
+  </div>
+  <div ref="videoContainer" class="right-image">
+    <video
+      ref="video"
+      src="../assets/MichelinManVideo.mp4"
+      width="100%"
+      muted
+      loop
+      class="scroll-video"
+      @click="openLink"
+    ></video>
   </div>
 </template>
 

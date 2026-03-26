@@ -146,7 +146,27 @@ button:focus-visible {
 .left-image--comingsoon{
   width: 50%;
   height: auto;
-  /* border: 2px solid var(--my-tan); */
+  color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.left-image--comingsoon:hover{
+  box-shadow: #c6d4dcff 0px 6px 12px,
+              #c6d4dcff 0px -6px 12px,
+              rgba(36, 36, 36, 0.4) 0px 6px 12px,
+              rgba(36, 36, 36, 0.4) 0px -6px 12px;
+  color: var(--dark-brown);
+}
+
+.left-text{
+  display: flex;
+  text-align: justify;
+  font-family: var(--font-project);
+  color: var(--dark-brown);
+  font-size: larger;
+  flex-direction: column;
+  margin-right: 20px;
 }
 
 .right-text{
@@ -165,23 +185,27 @@ button:focus-visible {
   border-radius: 10px;
   overflow: hidden;
 }
-
-
 .right-image--comingsoon{
-  width: 50%;
-  height: auto;
-  /* border: 2px solid var(--my-tan); */
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.right-image--comingsoon p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+  pointer-events: none;
 }
 
-.left-text{
-  display: flex;
-  text-align: justify;
-  font-family: var(--font-project);
-  color: var(--dark-brown);
-  font-size: larger;
-  flex-direction: column;
-  margin-right: 20px;
+.right-image--comingsoon:hover p {
+  color: var(--my-dark-teal);
 }
+
 
 
 .entry-tab-container {

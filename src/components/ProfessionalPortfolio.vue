@@ -23,11 +23,11 @@ import SubsurfaceScattering from './SubsurfaceScattering.vue';
 const curProjectComponents = [
   RobotProject,
   ResearchProj,
-  SubsurfaceScattering
   // DonutProject,
 ]
 
 const doneProjectComponents = [
+  SubsurfaceScattering,
   ClothAnimation,
   Fundamentals_FinalProj,
   PhotoMosaicGenerator,

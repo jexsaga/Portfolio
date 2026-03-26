@@ -1,5 +1,8 @@
 <template>
-    <div class="left-text">
+    <div class="left-image">
+        <img src="../assets/EarthQuakeMap.png" alt="earthquakemap" width="100%" @click="openLink" class="clickable-image"/>
+    </div>
+    <div class="right-text">
         <p>
         Interactive visualization of earthquake data from NASA and USGS, spanning 1905-2007.
         </p>
@@ -12,9 +15,6 @@
         <p>
         Focus: applying computer graphics to real-world geospatial data for dynamic, informative visual exploration.
         </p>
-    </div>
-    <div class="right-image">
-        <img src="../assets/EarthQuakeMap.png" alt="earthquakemap" width="100%" @click="openLink" class="clickable-image"/>
     </div>
 </template>
 

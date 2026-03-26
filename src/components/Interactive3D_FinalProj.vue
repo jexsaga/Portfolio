@@ -1,5 +1,14 @@
 <template>
-  <div class="left-text">
+  <div ref="videoContainer" class="left-image" style="width: 95%;">
+    <video
+      ref="video"
+      src="../assets/Earth_Moon_Orbit.mp4"
+      width="100%"
+      muted
+      loop
+    ></video>
+  </div>
+  <div class="right-text">
     <p>
     OpenGL project simulating the rotation of the earth around the sun and the moon around the earth.
     </p>
@@ -12,15 +21,6 @@
     <p>
     Focus: Obtain a basic understanding of graphics concepts and learn OpenGL.
     </p>
-  </div>
-  <div ref="videoContainer" class="right-image" style="width: 95%;">
-    <video
-      ref="video"
-      src="../assets/Earth_Moon_Orbit.mp4"
-      width="100%"
-      muted
-      loop
-    ></video>
   </div>
 </template>
 

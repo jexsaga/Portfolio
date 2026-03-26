@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      input[type="range"] {
+        width: 200px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>final-project</title>
+  </head>
+  <body style="margin-left:20%; margin-right:20%; padding:0">
+    <div style="text-align:center;">
+      <p>
+        Screen-space subserface scattering (SSSS). 
+        This project was implemented using javascript, html, and webgpu. I used vite to run the server for the browser.
+        I implemented the technique described in "Screen Space Perceptual Rendering of Human Skin" by Jorge Jimenez, Veronica Sundstedt, and Diego Gutierrez.
+        
+        <br>
+        <br>
+        See report here: <a href="/src/data/report.pdf" target="_blank">open in new tab.</a>
+        <br>
+        <br>
+        Jessica Robbins, 2026.
+      </p>
+    </div>
+    <div id= "controls" style="display:none; text-align:center;">
+      <p>
+        <input type="checkbox" id="pipelineCheckbox">
+        <label for="pipelineCheckbox">Pipeline Display</label>
+        <input type="checkbox" id="animateCheckbox">
+        <label for="animateCheckbox">Animate</label>
+      </p>
+    </div>
+    <div style="text-align:center;">
+      <div id="loading" style="text-align:center; font-size: xx-large;">
+        <p>LOADING MODEL...</p>
+      </div>
+      <!-- <canvas id="bigFinalCanvas" width="512" height="384"></canvas> -->
+      <div id="pipelineView"  style="display: none;">
+        <canvas id="lilFinalCanvas" width="512" height="384"></canvas>
+        <canvas id="diffuseCanvas" width="256" height="192"></canvas>
+        <canvas id="matteCanvas" width="256" height="192"></canvas>
+        <canvas id="specularCanvas" width="256" height="192"></canvas>
+        <canvas id="depthCanvas" width="256" height="192"></canvas>
+      </div>
+      <div id="singleView">
+        <canvas id="bigFinalCanvas" width="768" height="576"></canvas>
+      </div>
+    </div>
+    <script type="module" src = "./src/js/main.js"></script>
+  </body>
+</html>
