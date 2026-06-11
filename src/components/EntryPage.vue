@@ -9,10 +9,10 @@
     <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
         <div class="entry-top">
             <h1>Welcome to Jessica Robbins' Portfolio</h1>
-            <div style="padding: 0 10px;">
-                <h3>Who am I?</h3>
+            <div style="padding: 10px 20px;">
+                <h3 style="padding: 5px 0;">Who am I?</h3>
                 <p>
-                My name is Jessica Robbins. I recently graduated from the University of Minnesota with a <strong>Bachelor's in Computer Science and a Minor in French</strong>. Now, I am doing a <strong>Master's in Computer Graphics at Institut Polytechnique de Paris</strong>.
+                My name is Jessica Robbins. I recently completed my first year (M1) in the IGD Master program at IP-Paris. I will soon be doing the second year of my <strong>Master in Computer Graphics at École Polytechnique in the MScT Extended Cinematography</strong> program. Previously, I graduated from the University of Minnesota with a Bachelor's in Computer Science and a Minor in French.
                 I am intrigued by all things computer graphics, especially <strong>VFX, animation, and video game development</strong>. 
                 I challenge myself to make my projects personal, beautiful, and effective. 
                 While I enjoy the arts—such as music, poetry, pastels, digital illustration, and other expressive media—I balance that with my intellectual side, which loves problem-solving and efficiency. 
