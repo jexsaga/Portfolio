@@ -12,7 +12,7 @@
   --dark-brown: #404C40;
   --my-black: #090001;
   --my-dark-teal: #173432;
-  --my-teal: #578380;
+  --my-teal: rgba(132, 132, 105, 0.7);
 
   font-family: var(--font-general);
 
@@ -467,6 +467,7 @@ canvas#gameCanvas {
   margin: 10px;
   background-color: transparent;
   color: var(--my-white);
+  width: 120px;
   border: 2px solid var(--my-tan);
   padding: 8px 15px;
   border-radius: 8px;

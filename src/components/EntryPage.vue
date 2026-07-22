@@ -28,13 +28,13 @@
                 </div>
                 </router-link> -->
                 
+                <router-link to="/Resume" class="entry-button">
+                    See Resume
+                </router-link>
                 <router-link to="/Portfolio" class="entry-button">
                     See Portfolio
                 </router-link>
 
-                <router-link to="/Resume" class="entry-button">
-                    See Resume
-                </router-link>
             </div>
         </div>
     </div>
