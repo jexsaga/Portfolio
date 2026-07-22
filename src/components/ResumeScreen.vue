@@ -3,7 +3,7 @@
       <img src="../assets/BackButton.svg" alt="Back Button" class="back-icon" width="20px" height="20px" color="#ebeff1"/>
   </button>
   <div class="resume-container">
-    <h1 style="margin-top: 40px;">Jessica Robbins' Resume</h1>
+    <h1 style="margin-top: 40px;">My Resumes</h1>
     <div style="display: flex; justify-content: center; margin-bottom: 10px;">
       <button @click="pickedResume = resumePdfEN" :class="{ active: pickedResume === resumePdfEN }" class="language-button">EN</button>
       <button @click="pickedResume = resumePdfFR" :class="{ active: pickedResume === resumePdfFR }" class="language-button">FR</button>

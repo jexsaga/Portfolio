@@ -5,8 +5,8 @@
   --my-tan: #848469;
   --my-tan-transparent: rgba(132, 132, 105, 0.5);
   --my-tan-gradient: linear-gradient(to bottom, rgba(132, 132, 105, 0.0), rgba(132, 132, 105, 0.6));
-  --my-bluegreen-gradient: linear-gradient(to bottom, #e8f4f4, #56817e);
-  --light-white: #f3f2f3;
+  --my-bluegreen-gradient: linear-gradient(to bottom, #e8f4f4, #c8cfd2);
+  /* --light-white: #f3f2f3; */
   --light-teal: #9ccac7;
   --my-white: #090001;
   --dark-brown: #404C40;
@@ -458,6 +458,25 @@ canvas#gameCanvas {
 }
 
 .language-button.active {
+  background-color: var(--my-tan);
+  color: var(--my-white);
+}
+
+
+.entry-button {
+  margin: 10px;
+  background-color: transparent;
+  color: var(--my-white);
+  border: 2px solid var(--my-tan);
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-family: var(--font-project);
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.entry-button:hover {
   background-color: var(--my-tan);
   color: var(--my-white);
 }

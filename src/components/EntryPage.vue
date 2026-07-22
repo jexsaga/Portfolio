@@ -13,16 +13,13 @@
                 <h3 style="padding: 5px 0;">Who am I?</h3>
                 <p>
                 My name is Jessica Robbins. I recently completed my first year (M1) in the IGD Master program at IP-Paris. I will soon be doing the second year of my <strong>Master in Computer Graphics at École Polytechnique in the MScT Extended Cinematography</strong> program. Previously, I graduated from the University of Minnesota with a Bachelor's in Computer Science and a Minor in French.
-                I am intrigued by all things computer graphics, especially <strong>VFX, animation, and video game development</strong>. 
+                I am intrigued by all things computer graphics, with a special interest in 3D Animation. 
                 I challenge myself to make my projects personal, beautiful, and effective. 
                 While I enjoy the arts—such as music, poetry, pastels, digital illustration, and other expressive media—I balance that with my intellectual side, which loves problem-solving and efficiency. 
                 This portfolio showcases the work I have done that reflects both my technical skills and creative passions. 
                 I hope you enjoy!
                 </p>
             </div>
-        </div>
-        <div>
-            <!-- <h4 style="margin: 5px">Please pick which you would like to see.</h4> -->
             <div class="entry-tab-container">
                 <!-- <router-link to="/fun">
                 <div class="entry-tab entry-tab--fun">
@@ -30,22 +27,16 @@
                     <p class="entry-tab__content" style="color: var(--light-white)">This version is more playful and experimental, showcasing my projects in a more creative and fun way. Give it a try!</p>
                 </div>
                 </router-link> -->
-                <router-link to="/Portfolio">
-                    <div class="entry-tab entry-tab--professional">
-                        <h3 class="entry-tab__content" style="color: var(--light-white)">See Portfolio</h3>
-                    </div>
-                </router-link>
                 
-                <router-link to="/Resume">
-                    <div class="entry-tab entry-tab--professional">
-                        <h3 class="entry-tab__content" style="color: var(--light-white)">See Resume</h3>
-                    </div>
+                <router-link to="/Portfolio" class="entry-button">
+                    See Portfolio
+                </router-link>
+
+                <router-link to="/Resume" class="entry-button">
+                    See Resume
                 </router-link>
             </div>
         </div>
-        <!-- <div class="credits">
-            <p>Coding Image by <a href="https://wallpapers.com/wallpapers/cool-code-aesthetic-cqzxsy3jp8y5w6xx.html" style="color: #456664; text-decoration: underline;">Wallpapers.com</a></p>
-        </div> -->
     </div>
     
 </template>
