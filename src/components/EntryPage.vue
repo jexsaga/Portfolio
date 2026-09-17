@@ -13,7 +13,7 @@
                 <h3 style="padding: 5px 0;">Who am I?</h3>
                 <p>
                 My name is Jessica Robbins. I recently completed my first year (M1) in the IGD Master program at IP-Paris. I will soon be doing the second year of my <strong>Master in Computer Graphics at École Polytechnique in the MScT Extended Cinematography</strong> program. Previously, I graduated from the University of Minnesota with a Bachelor's in Computer Science and a Minor in French.
-                I am intrigued by all things computer graphics, with a special interest in 3D Animation. 
+                I am intrigued by all things computer graphics, with a special interest in anything 3D! 
                 I challenge myself to make my projects personal, beautiful, and effective. 
                 While I enjoy the arts—such as music, poetry, pastels, digital illustration, and other expressive media—I balance that with my intellectual side, which loves problem-solving and efficiency. 
                 This portfolio showcases the work I have done that reflects both my technical skills and creative passions. 
